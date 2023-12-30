@@ -77,7 +77,10 @@ h2 {
 
 <div class="container">
     <h2>DATA Form</h2>
-    <form name="submit-to-google-sheet">
+    Certainly! I've added a horizontal line (`<hr>`) to act as a divider between the different sections of your form. Here's the updated form:
+
+```html
+<form name="submit-to-google-sheet">
     <div class="form-group">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Name" required>
@@ -113,10 +116,19 @@ h2 {
         <input type="url" id="youtubeLink" name="youtubeLink" placeholder="Youtube Link" required>
     </div>
 
+    <hr> <!-- Divider -->
+
     <div class="form-group">
-        <label for="twitchChannelLink">Twitch Channel Link:</label>
-        <input type="url" id="twitchChannelLink" name="twitchChannelLink" placeholder="Twitch Channel Link" required>
+        <label for="sourceName">Source Name:</label>
+        <input type="text" id="sourceName" name="sourceName" placeholder="Source Name" required>
     </div>
+
+    <div class="form-group">
+        <label for="sourceChannelLink">Source Channel Link:</label>
+        <input type="url" id="sourceChannelLink" name="sourceChannelLink" placeholder="Source Channel Link" required>
+    </div>
+
+    <hr> <!-- Divider -->
 
     <div class="form-group">
         <label for="country">Country:</label>
@@ -138,6 +150,9 @@ h2 {
         <span id="msg"></span>
     </div>
 </form>
+```
+
+Now, there's a horizontal line between the sections to visually separate the fields related to personal information, source information, and additional details.
 
 </div>
 <script>
